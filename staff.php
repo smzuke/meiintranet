@@ -164,6 +164,26 @@
   </tr>
 </table>
 
+
+    <?php /* Someday we'll be able to connect to a database with this. Plain HTML until then.
+    mysql_connect("meiintranet.scottmzuke.com", "root", "root") or die(mysql_error());
+    mysql_select_db("contacts") or die(mysql_error());
+
+     $data = mysql_query("SELECT * FROM contacts ORDER BY last ASC")
+     or die(mysql_error());
+     Print "<h1>MEI Staff Directory</h1>";
+     Print "<table class='table table-striped highlight-rows'>";
+     Print "<tr><th>Name</th><th>Title</th><th>Ext.</th><th>Email</th></tr>";
+     while($info = mysql_fetch_array( $data ))
+     {
+     Print "<tr><td><strong>".$info['last'] . "</strong>, " . $info['first'] . "</td> ";
+     Print "<td>".$info['title']."</td>";
+     Print "<td>".$info['ext'] . "</td> ";
+     Print "<td> <a href=mailto:".$info['email'] . ">" .$info['email'] . "</a></td>";
+     }
+     Print "</table>";
+    */  ?>
+
 </div>
 
 <?php include('footer.php'); ?>
