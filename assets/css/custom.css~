@@ -1,0 +1,467 @@
+body {
+	font-family: 'Raleway', arial, sans-serif;
+	font-size:14pt;
+	background: #fbfaf8;
+}
+
+/* ==================================
+	GLOBAL STYLES
+	================================== */
+
+h1, h2, h3 {
+	font-family: 'Playfair Display', serif;
+}
+
+a:link, a:visited {
+	color:#cc6633;
+}
+
+.navbar-brand {
+	font-family:'Varela',sans-serif;
+}
+
+.section-title {
+	text-align: center;
+	color:#777;
+	font-family:'Playfair Display';
+	margin:40px 0 20px;
+}
+
+.lead {
+	text-align: center;
+}
+
+/* ==================================
+	LAYOUT STYLES
+	================================== */
+
+#header-logo {
+	width:100%;
+	max-width: 230px;
+}
+
+#hero {
+	background: url('../img/old-map-blurred-2.jpg') 50% 0 no-repeat fixed;
+	background-size: cover;
+	padding:30px;
+	border-bottom: 6px solid #444;
+	display: table;
+	height:270px;
+	width:100%;
+	margin-top:50px;
+	margin-bottom:0;
+}
+
+#hero a,a:visited {
+	color:#333;
+	text-decoration: none;
+}
+
+#hero a:hover {
+	color:#555;
+}
+
+#hero-content {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#quicklinks {
+background: #fbfaf8;
+min-height:400px;
+}
+
+.centered {
+	text-align: center;
+}
+
+#quicklinks img {
+	width:100%;
+	max-width: 200px;
+}
+
+#quicklinks i {
+	background: #b63500;
+	color:#efefef;
+	padding-top:22px;
+	padding-left: 2px;
+	width: 90px;
+	height: 90px;
+	border-radius: 45px;
+}
+
+#quicklinks .quicklink {
+	color:#b63500;
+	font-weight:bold;
+	font-size:1.5em;
+}
+
+.quicklink:hover i{
+	background: #007c99 !important;
+}
+
+#quicklinks .quicklink:hover{
+	color:#007c99;
+	text-decoration: none;
+}
+
+#references {
+	background: url('../img/lamps-bg.jpg') 50% 50% no-repeat;
+	background-size: cover;
+}
+
+#references .section-title {
+	color: white;
+	margin:0 0 30px;
+	font-weight: bold;
+}
+
+.reference-text {
+	background: rgba(0, 0, 0, 0.6);
+	border-radius: 6px;
+	color:#fff;
+	margin:20px 0;
+	padding:20px;
+}
+
+.reference-container {
+	margin-bottom: 30px;
+	clear:left;
+	color:#ccc;
+}
+
+.reference-container i {
+	font-size:1.8em;
+	float:left;
+	margin:0 20px 90px 0;
+	color: white;
+}
+
+.reference-container a,a:visited {
+	color:white;
+}
+
+.reference-container a:hover {
+	text-decoration: none;
+	padding-left:2px;
+}
+
+.reference-container a:hover::after {
+	content: " >>";
+}
+
+#statistics {
+	background: url('../img/paper.png') repeat;
+	padding:20px 0;
+	margin-top:0px;
+}
+
+#statistics .section-title{
+	font-size:2.5em;
+	font-weight: bold;
+	margin-bottom:30px;
+}
+
+#statistics i {
+	font-size:100px;
+	float:left;
+	margin-right:50px;
+}
+
+.stats-container {
+	clear:both;
+	height:130px;
+	font-weight: bold;
+	width:350px;
+	margin:0 auto;
+}
+
+.stats-container h2 {
+	padding-top:14px;
+	font-weight: bold;
+	font-family:'Raleway',serif;
+	font-size: 42px;
+	margin-bottom:0;
+}
+
+.fb {
+	color:#3b5998;
+	text-shadow: 1px 1px 1px #999;
+}
+
+.twitter {
+	color:#55acee;
+	text-shadow: 1px 1px 1px #999;
+}
+
+.yt {
+	color:#cd201f;
+	text-shadow: 1px 1px 1px #999;
+}
+
+.analytics {
+	color:#eb5424;
+	text-shadow: 1px 1px 1px #999;
+}
+
+i.analytics {
+	font-size:80px !important;
+	margin-top:10px;
+}
+
+#tutorials img {
+	max-width:100px;
+}
+
+#tutorials .media {
+	margin-bottom: 40px;
+	font-size:10pt;
+}
+
+footer {
+  background: #3e4249;
+  color:white;
+  padding:20px 0 20px;
+  font-size: 16px;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer a:link, footer a:visited {
+  color:white;
+}
+
+footer a:hover{
+  color:#cc6633;
+	text-decoration: none;
+}
+
+#footer-brand {
+	font-family:'Varela',sans-serif;
+	color:#fff;
+}
+
+#footer-brand:hover {
+	color:#cc6633;
+}
+
+#scholars-dir {
+	background: white;
+	margin-top:20px;
+	margin-bottom:20px;
+	padding:30px;
+}
+
+#scholars-dir h1 {
+	margin-top:0;
+}
+
+table.highlight-rows tr:hover {
+	background: yellow;
+}
+
+th {
+	background: #333;
+	color:#eee;
+}
+
+/* nv builder */
+
+.removed {
+display:none;
+}
+
+#input form, #cspan form {
+	background: #f1eae0;
+	padding:20px;
+	border-radius: 6px;
+	border:1px solid #d0ba96;
+}
+
+#input legend, #cspan legend {
+	border-color: #d0ba96;
+	font-weight: normal;
+	font-size: 24px;
+}
+
+#output {
+  padding:20px;
+	margin:0 0 40px;
+}
+
+#explainer {
+	text-align: center;
+	margin-top:260px;
+	font-style: italic;
+	color:#555;
+}
+
+#output ul {
+  list-style-type: none;
+  padding:0;
+  margin:20px 0 20px 0;
+}
+
+#output li {
+  margin:0 0 20px 0;
+}
+
+.page {
+	min-height: 500px;
+	margin-bottom: 40px;
+}
+
+.page a,
+.page a:visited {
+	color:#cc6633;
+}
+
+/* Leave a Note */
+.hidden {
+	display:none;
+}
+
+#note {
+	width:350px;
+	min-height:350px;
+	margin:50px auto;
+	padding:30px;
+	font-family:"Comic Sans MS",arial;
+	font-size:18pt;
+	color:#444;
+	line-height: 1.6em;
+	box-shadow: 4px 4px 8px #999;
+}
+
+#author {
+	text-align: right;
+}
+
+#expandForm:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+#dismiss {
+	//text-align: right;
+	position: relative;
+	top: -50px;
+	left: 305px;
+	width:30px;
+	height:30px;
+}
+
+#dismiss:hover {
+	cursor:pointer;
+}
+
+/* Outlets Page */
+
+.media-outlet {
+	border-bottom:1px solid #aaa;
+	padding: 20px 20px 30px;
+}
+
+
+
+/* Bookmarklets */
+
+a.bookmarklet {
+  padding:6px;
+  background-color: #eee;
+  color:#555;
+  border:1px solid #333;
+  font-family:monospace;
+  font-weight: normal;
+  border-radius:16px;
+  width: 280px;
+  margin:8px 0;
+  display:block;
+  text-align: center;
+}
+
+a.bookmarklet:hover {
+  text-decoration: none;
+  cursor:grab;
+}
+
+a.bookmarklet:active {
+  cursor:grabbing;
+}
+
+/* Modal Styles */
+
+.close {
+	font-size: 40px;
+	line-height:20px;
+}
+
+.modal-content {
+	background: #fbfaf8;
+}
+
+.modal-body {
+	margin:20px 0;
+}
+
+.modal-body a, .modal-body a:visited {
+	color:#b63500;
+	font-weight: bold;
+}
+
+.modal-body a:hover{
+	color:#007c99;
+	text-decoration: none;
+}
+
+#camera1, #camera2 {
+	width:50%;
+	float:left;
+	text-align: center;
+}
+
+#camera1 i, #camera2 i {
+	font-size: 60px;
+}
+
+.modal-footer{
+	clear:both;
+}
+
+/* Media Queries */
+
+@media (max-width: 767px){
+
+	#hero {
+		text-align: center;
+	}
+
+}
+
+@media print {
+	@page {
+	margin: 0 0.5cm;
+	}
+
+	header{
+		display: none;	
+	}
+	footer {
+		display: none;	
+	}
+	body {
+		font-size: 8pt;
+	}
+	h1 {
+		font-size: 14pt;	
+		margin:0;
+		padding: 0;
+		border-bottom: none;
+		text-align: center;
+	}
+	a:after {
+		display: none;	
+	}
+}
