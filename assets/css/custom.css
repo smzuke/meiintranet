@@ -5,7 +5,7 @@
 body {
 	font-family: 'Raleway', arial, sans-serif;
 	font-size:14pt;
-	background: #fbfaf8;
+	background: #eee; //#fbfaf8;
 }
 
 h1, h2, h3 {
@@ -297,6 +297,8 @@ i.analytics {
 	background: white;
 	padding:0 20px 0;
 	margin-top: 20px;
+	border-radius: 8px;
+	border:1px solid #bbb;
 }
 
 /* ==================================
@@ -304,11 +306,11 @@ i.analytics {
 ================================== */
 
 #ids-videos-sidebar {
-	background: #eee;
+	background: #ccc;
 	padding:20px;
 	margin-top: 20px;
 	//margin-top: 88px;
-	border: 1px solid #bbb;
+	border: 1px solid #aaa;
 	color:#333;
 	border-radius: 8px;
 }
