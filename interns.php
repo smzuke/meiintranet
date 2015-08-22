@@ -1,8 +1,8 @@
 <?php include('header.php'); ?>
 <div class="page container">
   <div class="row">
-    <div class="col-sm-8"> <!-- Spacer -->
-      <div class="white-panel col-sm-12"> <!-- Shortcuts Column -->
+    <div class="col-md-8"> <!-- Spacer -->
+      <div class="white-panel col-md-12"> <!-- Shortcuts Column -->
         <h1 class="page-header">Shortcuts</h1>
         <ul>
           <li><a href="https://accounts.newscred.com/login">Newscred</a><br>
@@ -34,9 +34,9 @@
           <li><a href="wordcount.php">Word Counter</a><br>
           Believe it or not, the name pretty much says it all.</li>
           <li><a class="bookmarklet" href="javascript:var%20docTitle=document.querySelector('h1.node-title').firstChild.textContent;var%20docAuthor=document.querySelector('span.author').firstChild.nextSibling.textContent;var%20docDate=document.querySelector('span.date').textContent;var%20docURL=document.URL;var%20docSummary='<span%20style=&quot;color:%20#323232;font-weight:bold;&quot;>'+docTitle+'</span><br><span%20style=&quot;color:%20#323232;font-style:%20italic;&quot;>'+docAuthor+'</span><br><span><a%20style=&quot;color:%20#cc6633;%20font-weight:%20bold;%20text-decoration:%20none;&quot;%20track=&quot;on&quot;%20shape=&quot;rect&quot;%20href=&quot;'+docURL+'&quot;%20linktype=&quot;1&quot;%20target=&quot;_blank&quot;>Read%20Article</a></span><br><br>';alert(docSummary);void(0);">
-          CC Sidebar Article Link</a>
+          CC Sidebar Article Link</a><br>
           Drag this into your bookmarks bar. When you go to an article on MEI's website, click the bookmarklet, and a pop-up window will appear with HTML code that you can drop into Constant Contact. Neat!</li>
-          <li><a href="javascript:var%20blogPostTitle=document.querySelector('h3.entry-title').textContent;var%20blogPostURL=document.URL;var%20blogPostSummary='<a%20style=&quot;color:%20#cc6633;%20font-weight:%20bold;%20text-decoration:%20none;&quot;%20track=&quot;on&quot;%20shape=&quot;rect&quot;%20href=&quot;'+blogPostURL+'&quot;%20linktype=&quot;1&quot;%20target=&quot;_blank&quot;>'+blogPostTitle+'</a><br><br>';alert(blogPostSummary);void(0);" class="bookmarklet">Editor's Blog Link</a>
+          <li><a href="javascript:var%20blogPostTitle=document.querySelector('h3.entry-title').textContent;var%20blogPostURL=document.URL;var%20blogPostSummary='<a%20style=&quot;color:%20#cc6633;%20font-weight:%20bold;%20text-decoration:%20none;&quot;%20track=&quot;on&quot;%20shape=&quot;rect&quot;%20href=&quot;'+blogPostURL+'&quot;%20linktype=&quot;1&quot;%20target=&quot;_blank&quot;>'+blogPostTitle+'</a><br><br>';alert(blogPostSummary);void(0);" class="bookmarklet">Editor's Blog Link</a><br>
           Drag this into your bookmarks bar. When you go to a post on the MEI Editor's Blog, click the bookmarklet, and a pop-up window will appear with the HTML code that you can drop into Constant Contact.</li>
         </ul>
         <br>
@@ -44,8 +44,8 @@
         <br>
       </div> <!-- End of Shortcuts Column -->
     </div> <!-- End of Spacer -->
-    <div class="col-sm-4"> <!-- Spacer -->
-      <div id="ids-videos-sidebar" class="col-sm-12">
+    <div class="col-md-4"> <!-- Spacer -->
+      <div id="ids-videos-sidebar" class="col-md-12">
         <h1>IDS Videos</h1>
         <p>A selection of past recorded IDS talks, in case you missed one or a particular speaker wasn't available this term.</p>  			
   			<div class="media"> <!-- Robert Ford -->

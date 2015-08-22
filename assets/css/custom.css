@@ -5,7 +5,7 @@
 body {
 	font-family: 'Raleway', arial, sans-serif;
 	font-size:14pt;
-	background: #eee; //#fbfaf8;
+	background: #fbfaf8;
 }
 
 h1, h2, h3 {
@@ -17,17 +17,12 @@ a:link, a:visited {
 }
 
 a.bookmarklet {
-  padding:6px;
+  padding:4px 6px 2px;
   background-color: #eee;
-  color:#555;
-  border:1px solid #333;
+  color:#555 !important;
+  border:1px dashed #999;
   font-family:monospace;
   font-weight: normal;
-  border-radius:16px;
-  width: 280px;
-  margin:8px 0;
-  display:block;
-  text-align: center;
 }
 
 a.bookmarklet:hover {
@@ -69,6 +64,10 @@ table.highlight-rows tr:hover {
 th {
 	background: #333;
 	color:#eee;
+}
+
+.page li {
+	margin-bottom:.5em;
 }
 
 /* ==================================
@@ -288,6 +287,10 @@ i.analytics {
 	margin-bottom: 40px;
 }
 
+.page-header {
+	margin:20px;
+}
+
 .page a,
 .page a:visited {
 	color:#cc6633;
@@ -298,7 +301,7 @@ i.analytics {
 	padding:0 20px 0;
 	margin-top: 20px;
 	border-radius: 8px;
-	border:1px solid #bbb;
+	border:1px solid #d0ba96;
 }
 
 /* ==================================
@@ -306,11 +309,11 @@ i.analytics {
 ================================== */
 
 #ids-videos-sidebar {
-	background: #ccc;
+	background: #f1eae0;
 	padding:20px;
 	margin-top: 20px;
 	//margin-top: 88px;
-	border: 1px solid #aaa;
+	border: 1px solid #d0ba96;
 	color:#333;
 	border-radius: 8px;
 }
@@ -320,14 +323,14 @@ i.analytics {
 	padding:0 0 10px;
 	font-size: 1.4em;
 	text-align: center;
-	border-bottom: 1px solid #ccc;
+	border-bottom: 1px solid #d0ba96;
 }
 
 #ids-videos-sidebar img {
 	max-width:100px;
 	padding:2px;
 	background: white;
-	border:1px solid #bbb;
+	border:1px solid #d0ba96;
 }
 
 #ids-videos-sidebar .media {
