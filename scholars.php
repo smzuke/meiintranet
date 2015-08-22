@@ -1,6 +1,6 @@
 <?php include('header.php'); ?>
 
-  <div id="scholars-dir" class="container">
+  <div id="contact-directory" class="container">
     <h1 class="page-header">Scholars Directory</h1>
     <h4>Last Updated: May 2015</h4>
     <br>

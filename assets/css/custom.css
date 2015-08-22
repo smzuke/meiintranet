@@ -1,5 +1,5 @@
 /* ==================================
-	          GLOBAL STYLES
+	       GLOBAL STYLES
 ===================================== */
 
 body {
@@ -14,6 +14,29 @@ h1, h2, h3 {
 
 a:link, a:visited {
 	color:#cc6633;
+}
+
+a.bookmarklet {
+  padding:6px;
+  background-color: #eee;
+  color:#555;
+  border:1px solid #333;
+  font-family:monospace;
+  font-weight: normal;
+  border-radius:16px;
+  width: 280px;
+  margin:8px 0;
+  display:block;
+  text-align: center;
+}
+
+a.bookmarklet:hover {
+  text-decoration: none;
+  cursor:grab;
+}
+
+a.bookmarklet:active {
+  cursor:grabbing;
 }
 
 .navbar-brand {
@@ -39,9 +62,18 @@ a:link, a:visited {
 	text-align: center;
 }
 
+table.highlight-rows tr:hover {
+	background: yellow;
+}
+
+th {
+	background: #333;
+	color:#eee;
+}
+
 /* ==================================
-	LAYOUT STYLES
-	================================== */
+		HEADER AND FOOTER
+================================== */
 
 #header-logo {
 	width:100%;
@@ -73,6 +105,39 @@ a:link, a:visited {
 	display: table-cell;
 	vertical-align: middle;
 }
+
+footer {
+  background: #3e4249;
+  color:white;
+  padding:20px 0 20px;
+  font-size: 16px;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer a:link, footer a:visited {
+  color:white;
+}
+
+footer a:hover{
+  color:#cc6633;
+	text-decoration: none;
+}
+
+#footer-brand {
+	font-family:'Varela',sans-serif;
+	color:#fff;
+}
+
+#footer-brand:hover {
+	color:#cc6633;
+}
+
+/* ==================================
+			HOMEPAGE
+================================== */
 
 #quicklinks {
 background: #fbfaf8;
@@ -213,46 +278,9 @@ i.analytics {
 	margin-top:10px;
 }
 
-#tutorials img {
-	max-width:100px;
-}
-
-#tutorials .media {
-	margin-bottom: 40px;
-	font-size:10pt;
-}
-
-footer {
-  background: #3e4249;
-  color:white;
-  padding:20px 0 20px;
-  font-size: 16px;
-}
-
-footer p {
-  margin: 0;
-}
-
-footer a:link, footer a:visited {
-  color:white;
-}
-
-footer a:hover{
-  color:#cc6633;
-	text-decoration: none;
-}
-
-#footer-brand {
-	font-family:'Varela',sans-serif;
-	color:#fff;
-}
-
-#footer-brand:hover {
-	color:#cc6633;
-}
 
 /*===============================
- 				 Interior Pages
+ 		INTERIOR PAGES
 ================================= */
 
 .page {
@@ -265,29 +293,37 @@ footer a:hover{
 	color:#cc6633;
 }
 
-#scholars-dir {
+/* ==================================
+		INTERNS PAGE
+================================== */
+
+#ids-videos-sidebar img {
+	max-width:100px;
+}
+
+#ids-videos-sidebar .media {
+	margin-bottom: 40px;
+	font-size:10pt;
+}
+
+/* ==================================
+		CONTACT DIRECTORIES
+================================== */
+
+#contact-directory {
 	background: white;
 	margin-top:20px;
 	margin-bottom:20px;
 	padding:30px;
 }
 
-#scholars-dir h1 {
+#contact-directory h1 {
 	margin-top:0;
 }
 
-table.highlight-rows tr:hover {
-	background: yellow;
-}
-
-th {
-	background: #333;
-	color:#eee;
-}
-
-/*
- * News & Views builder
- */
+/* ==================================
+		N&V BUILDER
+================================== */
 
 .removed {
 display:none;
@@ -329,7 +365,7 @@ display:none;
 }
 
 /*===============================
- 						Tutorial
+ 			TUTORIAL
 ================================= */
 
 #slide-nav-bar {
@@ -469,9 +505,9 @@ display:none;
 	display: none;
 }
 
-/*
- * Leave a Note
- */
+/*===============================
+ 		LEAVE A NOTE
+=================================*/
 
 #note {
 	width:350px;
@@ -507,32 +543,9 @@ display:none;
 	cursor:pointer;
 }
 
-/* Bookmarklets */
-
-a.bookmarklet {
-  padding:6px;
-  background-color: #eee;
-  color:#555;
-  border:1px solid #333;
-  font-family:monospace;
-  font-weight: normal;
-  border-radius:16px;
-  width: 280px;
-  margin:8px 0;
-  display:block;
-  text-align: center;
-}
-
-a.bookmarklet:hover {
-  text-decoration: none;
-  cursor:grab;
-}
-
-a.bookmarklet:active {
-  cursor:grabbing;
-}
-
-/* Modal Styles */
+/*===============================
+ 			MODAL
+=================================*/
 
 .close {
 	font-size: 40px;
@@ -571,7 +584,9 @@ a.bookmarklet:active {
 	clear:both;
 }
 
-/* Media Queries */
+/*===============================
+ 		MEDIA QUERIES
+=================================*/
 
 @media (max-width: 767px){
 

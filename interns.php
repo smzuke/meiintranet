@@ -55,7 +55,7 @@
   
 <div class="col-sm-4">
   
-<section id="tutorials">
+<section id="ids-videos-sidebar">
 
 
 <h1 class="page-header">IDS Videos</h1>
