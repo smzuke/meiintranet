@@ -293,16 +293,43 @@ i.analytics {
 	color:#cc6633;
 }
 
+.white-panel {
+	background: white;
+	padding:0 20px 0;
+	margin-top: 20px;
+}
+
 /* ==================================
 		INTERNS PAGE
 ================================== */
 
+#ids-videos-sidebar {
+	background: #eee;
+	padding:20px;
+	margin-top: 20px;
+	//margin-top: 88px;
+	border: 1px solid #bbb;
+	color:#333;
+	border-radius: 8px;
+}
+
+#ids-videos-sidebar h1 {
+	margin:0 0 10px;
+	padding:0 0 10px;
+	font-size: 1.4em;
+	text-align: center;
+	border-bottom: 1px solid #ccc;
+}
+
 #ids-videos-sidebar img {
 	max-width:100px;
+	padding:2px;
+	background: white;
+	border:1px solid #bbb;
 }
 
 #ids-videos-sidebar .media {
-	margin-bottom: 40px;
+	margin-bottom: 30px;
 	font-size:10pt;
 }
 
