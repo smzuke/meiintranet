@@ -1,6 +1,6 @@
 <?php include('header.php'); ?>
 
-  <div id="scholars-dir" class="container">
+  <div id="contact-directory" class="container">
 
 
 <h1 class="page-header">MEI Staff Directory</h1>
