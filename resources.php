@@ -2,7 +2,7 @@
 
 <div class="container page">
   <div class="row">
-    <div class="col-sm-8 col-sm-offset-2">
+    <div class="white-panel col-sm-8 col-sm-offset-2">
       <h1 class="page-header">Useful (And Free) Resources for Everyone</h1>
       <ul>
         <li><a href="http://pixlr.com/editor/">Pixlr Online Photo Editor</a><br>
