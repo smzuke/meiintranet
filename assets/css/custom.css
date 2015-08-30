@@ -401,7 +401,50 @@ display:none;
 }
 
 /*===============================
- 			TUTORIAL
+ 		TUTORIALS LIST PAGE
+================================= */
+
+
+.tutorial-container {
+	padding:10px;
+	margin-bottom: 10px;
+}
+
+.tutorial-container img {
+	width:100%;
+	border-top-right-radius: 9px;
+	border-top-left-radius: 9px;
+}
+
+.tutorial-box {
+	border:1px solid #777;
+	background-color: #eee;
+	border-radius: 10px;
+	overlap:hidden;
+}
+
+.tutorial-box h3 {
+	font-family:'Helvetica',sans-serif;
+	color:#444;
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+.tutorial-box small {
+	color:#cc6633;
+}
+
+.tutorial-box h3, .tutorial-box p, .tutorial-box small{
+	padding:0 10px 0;
+}
+
+.tutorial-box a, .tutorial-box a:visited {
+	color:#555;
+}
+
+
+/*===============================
+ 		TUTORIAL SLIDESHOWS
 ================================= */
 
 #slide-nav-bar {

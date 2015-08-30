@@ -1,4 +1,4 @@
-<div id="slides" data-tutorial-title="News & Views Weekly Newsletter" data-toc="yes">
+<div id="slides" data-tutorial-title="Tracking Media Hits" data-toc="yes">
 
           <section>
             <h3>Introduction</h3>
