@@ -100,17 +100,8 @@
         <h4 class="modal-title" id="myModalLabel">Select Camera</h4>
       </div>
       <div class="modal-body">
-        <div id="camera1">
-					<a href="http://192.168.1.239/">
-					<i class="fa fa-car"></i>
-					<h2>Parking Area</h2></a>
-				</div>
-				<div id="camera2">
-					<a href="http://192.168.1.237/">
-					<i class="fa fa-building-o"></i>
-					<h2>Front Door</h2></a>
-				</div>
-				<div class="clearfix"></div>
+        <?php include('config/security-cameras.php'); ?>
+		<div class="clearfix"></div>
       </div>
       <!--<div class="modal-footer">
         <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
